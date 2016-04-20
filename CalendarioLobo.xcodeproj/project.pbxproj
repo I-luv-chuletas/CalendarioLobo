@@ -54,14 +54,38 @@
 		A2DB4F6F1CC73085002AA8C3 /* CalendarioLobo */ = {
 			isa = PBXGroup;
 			children = (
+				A2DB4F841CC730D9002AA8C3 /* Controllers */,
+				A2DB4F831CC730CF002AA8C3 /* Views */,
+				A2DB4F821CC730C5002AA8C3 /* Models */,
 				A2DB4F701CC73085002AA8C3 /* AppDelegate.swift */,
-				A2DB4F721CC73085002AA8C3 /* ViewController.swift */,
-				A2DB4F741CC73085002AA8C3 /* Main.storyboard */,
 				A2DB4F771CC73085002AA8C3 /* Assets.xcassets */,
-				A2DB4F791CC73085002AA8C3 /* LaunchScreen.storyboard */,
 				A2DB4F7C1CC73085002AA8C3 /* Info.plist */,
 			);
 			path = CalendarioLobo;
+			sourceTree = "<group>";
+		};
+		A2DB4F821CC730C5002AA8C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A2DB4F831CC730CF002AA8C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2DB4F741CC73085002AA8C3 /* Main.storyboard */,
+				A2DB4F791CC73085002AA8C3 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A2DB4F841CC730D9002AA8C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2DB4F721CC73085002AA8C3 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
