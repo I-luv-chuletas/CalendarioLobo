@@ -47,25 +47,15 @@ class SplashTableView: UITableViewController {
         
         cell.backgroundColor = UIColor.whiteColor()
         
-        if indexPath.section == 0 {
-            
-            cell.textLabel?.text = clubs[indexPath.indexAtPosition(1)]
-            cell.detailTextLabel?.text = dates[indexPath.row]
-
-
-
-        }
-        
-        //cell.textLabel?.text = clubs[indexPath.row]
-        //cell.detailTextLabel?.text = dates[indexPath.row]
+        cell.textLabel?.text = clubs[indexPath.row]
+        cell.detailTextLabel?.text = dates[indexPath.row]
         
         return cell
     }
     
     override func tableView (tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        
-        return clubs.count
+        return 4
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
