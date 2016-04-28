@@ -11,6 +11,7 @@
 		099281071CD01BF700164E24 /* AcademicCalendarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */; };
 		099281091CD020E700164E24 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099281081CD020E700164E24 /* DetailsViewController.swift */; };
 		09D9B1381CD00D1B002E8A9B /* ChooseCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */; };
+		A214BFB91CD1D1920049DCEE /* CategoryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214BFB81CD1D1920049DCEE /* CategoryMenuViewController.swift */; };
 		A2DB4F711CC73085002AA8C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB4F701CC73085002AA8C3 /* AppDelegate.swift */; };
 		A2DB4F731CC73085002AA8C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB4F721CC73085002AA8C3 /* ViewController.swift */; };
 		A2DB4F761CC73085002AA8C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB4F741CC73085002AA8C3 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicCalendarTableView.swift; sourceTree = "<group>"; };
 		099281081CD020E700164E24 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCalendar.swift; sourceTree = "<group>"; };
+		A214BFB81CD1D1920049DCEE /* CategoryMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryMenuViewController.swift; sourceTree = "<group>"; };
 		A2DB4F6D1CC73085002AA8C3 /* CalendarioLobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarioLobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DB4F701CC73085002AA8C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DB4F721CC73085002AA8C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				A2DB4F721CC73085002AA8C3 /* ViewController.swift */,
 				099281081CD020E700164E24 /* DetailsViewController.swift */,
+				A214BFB81CD1D1920049DCEE /* CategoryMenuViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				A2DB4F731CC73085002AA8C3 /* ViewController.swift in Sources */,
 				097E6E0E1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift in Sources */,
+				A214BFB91CD1D1920049DCEE /* CategoryMenuViewController.swift in Sources */,
 				09D9B1381CD00D1B002E8A9B /* ChooseCalendar.swift in Sources */,
 				099281071CD01BF700164E24 /* AcademicCalendarTableView.swift in Sources */,
 				A2DB4F711CC73085002AA8C3 /* AppDelegate.swift in Sources */,

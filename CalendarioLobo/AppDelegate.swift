@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Tenemos que decirle al navController que el tableView es su root view
+        let navController = window!.rootViewController as! UITabBarController
+        //let navcon = navController.selectedIndex
+       
+        //let calendarController = navController.o.topViewController as! ChooseCalendar
+        
+        
         return true
     }
 

@@ -29,5 +29,13 @@ class ChooseCalendar: UITableViewController
      
      }
     
+    
+    @IBAction func academicSelected(segue:UIStoryboardSegue, sender: AnyObject?){
+       
+        // Activamos el segue si le damos al que es
+        self.performSegueWithIdentifier("academic", sender: self)
+        
+        
+    }
 
 }
