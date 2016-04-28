@@ -13,6 +13,16 @@ class SplashTableView: UITableViewController {
     
     var clubs = ["PEH", "CSSA", "ACM-W", "Histriones"]
     
+    //var myClubs = ["CSSA","ACM-W"]
+    //var myDates = ["April 29, 2016", "January 25, 2016"]
+    
+    //var upcomingClubs = ["Histriones"]
+    //var upcomingDates = ["March 8, 2016"]
+    
+    //var recentPost = ["PEH"]
+    //
+    var recentDates = ["April 28, 2016"]
+    
     //var events = ["Body Image and Identity", "Atlantic College Tour", "Github Workshop", "Visita Mariann Pabon"]
     
     var dates = ["April 28, 2016", "April 29, 2016", "January 25, 2016", "March 8, 2016"]
@@ -42,11 +52,11 @@ class SplashTableView: UITableViewController {
     
     override func tableView (tableView: UITableView, cellForRowAtIndexPath indexPath : NSIndexPath) -> UITableViewCell {
         
-        
         let cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: "cell")
         
         cell.backgroundColor = UIColor.whiteColor()
         
+
         cell.textLabel?.text = clubs[indexPath.row]
         cell.detailTextLabel?.text = dates[indexPath.row]
         
@@ -55,7 +65,7 @@ class SplashTableView: UITableViewController {
     
     override func tableView (tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 4
+        return clubs.count
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
