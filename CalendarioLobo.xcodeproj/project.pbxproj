@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097E6E0E1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097E6E0D1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift */; };
+		099281071CD01BF700164E24 /* AcademicCalendarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */; };
+		099281091CD020E700164E24 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099281081CD020E700164E24 /* DetailsViewController.swift */; };
+		09D9B1381CD00D1B002E8A9B /* ChooseCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */; };
 		A2DB4F711CC73085002AA8C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB4F701CC73085002AA8C3 /* AppDelegate.swift */; };
 		A2DB4F731CC73085002AA8C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB4F721CC73085002AA8C3 /* ViewController.swift */; };
 		A2DB4F761CC73085002AA8C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB4F741CC73085002AA8C3 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		097E6E0D1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtracurricularActivitiesTableView.swift; sourceTree = "<group>"; };
+		099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicCalendarTableView.swift; sourceTree = "<group>"; };
+		099281081CD020E700164E24 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCalendar.swift; sourceTree = "<group>"; };
 		A2DB4F6D1CC73085002AA8C3 /* CalendarioLobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarioLobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DB4F701CC73085002AA8C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DB4F721CC73085002AA8C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09D9B1361CD00C6D002E8A9B /* CalendarListTable */ = {
+			isa = PBXGroup;
+			children = (
+				09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */,
+				099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */,
+				099281081CD020E700164E24 /* DetailsViewController.swift */,
+				097E6E0D1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift */,
+			);
+			name = CalendarListTable;
+			sourceTree = "<group>";
+		};
 		A2DB4F641CC73085002AA8C3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +73,7 @@
 		A2DB4F6F1CC73085002AA8C3 /* CalendarioLobo */ = {
 			isa = PBXGroup;
 			children = (
+				09D9B1361CD00C6D002E8A9B /* CalendarListTable */,
 				A2DB4F841CC730D9002AA8C3 /* Controllers */,
 				A2DB4F831CC730CF002AA8C3 /* Views */,
 				A2DB4F821CC730C5002AA8C3 /* Models */,
@@ -120,7 +140,7 @@
 				TargetAttributes = {
 					A2DB4F6C1CC73085002AA8C3 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = S9L854MF98;
+						DevelopmentTeam = CETGMRV82W;
 					};
 				};
 			};
@@ -161,7 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DB4F731CC73085002AA8C3 /* ViewController.swift in Sources */,
+				097E6E0E1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift in Sources */,
+				09D9B1381CD00D1B002E8A9B /* ChooseCalendar.swift in Sources */,
+				099281071CD01BF700164E24 /* AcademicCalendarTableView.swift in Sources */,
 				A2DB4F711CC73085002AA8C3 /* AppDelegate.swift in Sources */,
+				099281091CD020E700164E24 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalendarioLobo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TreeClubStudios.CalendarioLobo;
@@ -285,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalendarioLobo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TreeClubStudios.CalendarioLobo;
@@ -311,6 +337,7 @@
 				A2DB4F811CC73085002AA8C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
