@@ -48,8 +48,6 @@
 			children = (
 				09D9B1371CD00D1B002E8A9B /* ChooseCalendar.swift */,
 				099281061CD01BF700164E24 /* AcademicCalendarTableView.swift */,
-				099281081CD020E700164E24 /* DetailsViewController.swift */,
-				097E6E0D1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift */,
 			);
 			name = CalendarListTable;
 			sourceTree = "<group>";
@@ -94,6 +92,7 @@
 		A2DB4F831CC730CF002AA8C3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				097E6E0D1CD11C3F0066370A /* ExtracurricularActivitiesTableView.swift */,
 				A2DB4F741CC73085002AA8C3 /* Main.storyboard */,
 				A2DB4F791CC73085002AA8C3 /* LaunchScreen.storyboard */,
 			);
@@ -104,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A2DB4F721CC73085002AA8C3 /* ViewController.swift */,
+				099281081CD020E700164E24 /* DetailsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
